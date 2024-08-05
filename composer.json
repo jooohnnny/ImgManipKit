@@ -1,0 +1,32 @@
+{
+    "name": "johnny/imagetoolkit",
+    "description": "images manipulation tool kit",
+    "require": {
+        "php": ">=7.4",
+        "ext-gd": "*",
+        "ext-exif": "*",
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.26"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/notifications": "^5.5|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/contracts": "^5.5|^6.0|^7.0|^8.0|^9.0"
+    },
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Johnny\\ImageToolKit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "johnny",
+            "email": "jooohnny.yu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+
+}
